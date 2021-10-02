@@ -9,45 +9,9 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script type="text/javascript" src="calculateTime.js"></script>
 </head>
-    <body>
+    <body onload="onLoadFunction();">
         <p>Display the current time of all the teammates.</p>
         <div lass="container mt-3"></div>
-        <table class="table">
-
-            <tr>
-                <th>Name</th>
-                <th>Current Time</th>
-            </tr>
-            <tr>
-                <td>Test 1</td>
-                <td>
-                    <div id='ctime1'></div>
-                    <script>
-                        document.getElementById('ctime1').innerHTML=calcTime('+5.5');
-                    </script>
-                </td>
-            </tr>
-
-            <tr>
-                <td>Test 2</td>
-                <td>
-                    <div id='ctime2'></div>
-                    <script>
-                        document.getElementById('ctime2').innerHTML=calcTime('+4.5');
-                    </script>
-                </td>
-            </tr>
-
-            <tr>
-                <td>Test 3</td>
-                <td>
-                    <div id='ctime3'></div>
-                    <script>
-                        document.getElementById('ctime3').innerHTML=calcTime('+0.0');
-                    </script>
-                </td>
-            </tr>
-
-        </table>
+        <div id="exp"></div>
     </body>
 </html>
