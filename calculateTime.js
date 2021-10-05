@@ -39,9 +39,9 @@ function fillTable(data){
     document.getElementById('exp').innerHTML=dataString;
 }
 
-function calcTime(offset) {
-    d = new Date();
-    utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-    nd = new Date(utc + (3600000 * offset));
-    return nd.toLocaleString('en-GB');
+function calcTime(offsetValue) {
+    dateValue = new Date();
+    utcValue = dateValue.getTime() + (dateValue.getTimezoneOffset() * 60000);
+    newDate = new Date(utcValue + (3600000 * offsetValue));
+    return newDate.toLocaleString('en-GB');
 }
