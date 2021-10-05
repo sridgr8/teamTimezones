@@ -1,0 +1,14 @@
+{
+    "teamMembers":[
+        {"name": "Test Associate 1", "timeDifferential": "5.5", "startTime": "12:00:00", "endTime": "21:00:00"},
+        {"name": "Test Associate 2", "timeDifferential": "8.5", "startTime": "10:00:00", "endTime": "19:00:00"},
+        {"name": "Test Associate 3", "timeDifferential": "-7.5", "startTime": "09:00:00", "endTime": "18:00:00"},
+        {"name": "Test Associate 4", "timeDifferential": "5.5", "startTime": "12:00:00", "endTime": "21:00:00"},
+        {"name": "Test Associate 5", "timeDifferential": "8.5", "startTime": "10:00:00", "endTime": "19:00:00"},
+        {"name": "Test Associate 6", "timeDifferential": "-7.5", "startTime": "09:00:00", "endTime": "18:00:00"},
+        {"name": "Test Associate 7", "timeDifferential": "5.5", "startTime": "12:00:00", "endTime": "21:00:00"},
+        {"name": "Test Associate 8", "timeDifferential": "8.5", "startTime": "10:00:00", "endTime": "19:00:00"},
+        {"name": "Test Associate 9", "timeDifferential": "-7.5", "startTime": "09:00:00", "endTime": "18:00:00"},
+        {"name": "Test Associate 10", "timeDifferential": "-10.5", "startTime": "08:00:00", "endTime": "17:00:00"}
+    ]
+}
