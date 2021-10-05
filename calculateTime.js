@@ -1,16 +1,8 @@
-// import data from './data.json' assert {type:'json'};
-// console.log(data.teamMembers);
-    
 function onLoadFunction(){
-    // var nameArr=["Test One", "Test Two", "Test Three"];
-    // var timeArr=[5.5, 5.5, -8.5];
-    // var startTime=["12:00:00", "10:00:00", "08:00:00"];
-    // var endTime=["21:00:00", "19:00:00", "17:00:00"];
 
     fetch("./data.json")
         .then(response => response.json())
         .then(data => {
-            console.log(data.teamMembers[1].name)
             fillTable(data)
         });
 }
